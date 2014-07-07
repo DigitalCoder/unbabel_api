@@ -155,7 +155,7 @@ Response:
      "text":"In the era of Siri",
      "target_language":"pt",
      "source_language": "en",
-     "translated_text": "teste super legal ordem.",
+     "translatedText": "teste super legal ordem.",
      "uid": "29de9551d9"
      
 }
