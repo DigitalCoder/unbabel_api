@@ -11,7 +11,7 @@ Authentication
 
 Unbabel supports an api key-based authentication mechanism.
 
-Signup for Unbabel to get an api token at https://www.unbabel.com. The key is the api key associated with an account and can be obtained in the Unbabel website on your profile. This key should be passed as a request header with each request.
+Signup for Unbabel to get an api token at https://www.unbabel.comm. The key is the api key associated with an account and can be obtained in the Unbabel website on your profile. This key should be passed as a request header with each request.
 
 All API calls described in this document require authentication.
 
@@ -27,7 +27,7 @@ Request Translation
 ```shell
 curl -H "Authorization: ApiKey username:api_token" \
      -H "Content-Type: application/json" \
-     -X POST http://www.unbabel.co/tapi/v2/translation/ \
+     -X POST http://www.unbabel.com/tapi/v2/translation/ \
      --data 'data'
 ```
 
@@ -89,7 +89,7 @@ Bulk Request Translations
 ```shell
 curl -H "Authorization: ApiKey username:api_token" \
      -H "Content-Type: application/json" \
-     -X patch http://www.unbabel.co/tapi/v2/translation/ \
+     -X patch http://www.unbabel.com/tapi/v2/translation/ \
      --data 'data'
 ```
 
@@ -143,7 +143,7 @@ Returns the current state of a translation.
 ```shell
 curl -H "Authorization: ApiKey username:api_token" \
      -H "Content-Type: application/json" \
-     -X GET https://www.unbabel.co/tapi/v2/translation/uid/
+     -X GET https://www.unbabel.com/tapi/v2/translation/uid/
 ```
 
 Response:
@@ -177,7 +177,7 @@ An optional query parameter can be passed to select translations with a given st
 ```shell
 curl -H "Authorization: ApiKey username:api_token" \
      -H "Content-Type: application/json" \
-     -X GET https://www.unbabel.co/tapi/v2/translation/?status=ready
+     -X GET https://www.unbabel.com/tapi/v2/translation/?status=ready
 ```
 
 Response:
@@ -226,7 +226,7 @@ How to report (reject) a translation:
 ```shell
 curl -H "Authorization: ApiKey username:api_token" \
      -H "Content-Type: application/json" \
-     -X POST https://www.unbabel.co/tapi/v2/report/ \
+     -X POST https://www.unbabel.com/tapi/v2/report/ \
      --data 'data'
 ```
 
@@ -259,7 +259,7 @@ Language pairs currently available in the unbabel platform:
 ```shell
 curl -H "Authorization: ApiKey username:api_token" \
      -H "Content-Type: application/json" \
-     -X GET https://www.unbabel.co/tapi/v2/language_pair/
+     -X GET https://www.unbabel.com/tapi/v2/language_pair/
 ```
 
 Response:
@@ -295,7 +295,7 @@ Language Tones available in the unbabel platform:
 ```shell
 curl -H "Authorization: ApiKey username:api_token" \
      -H "Content-Type: application/json" \
-     -X GET https://www.unbabel.co/tapi/v2/tone/
+     -X GET https://www.unbabel.com/tapi/v2/tone/
 ```
 
 Response:
@@ -325,7 +325,7 @@ Language Topics available in the Unbabel platform:
 ```shell
 curl -H "Authorization: ApiKey username:api_token" \
      -H "Content-Type: application/json" \
-     -X GET https://www.unbabel.co/tapi/v2/topic/
+     -X GET https://www.unbabel.com/tapi/v2/topic/
 ```
 
 Response:
