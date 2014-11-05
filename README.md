@@ -181,7 +181,7 @@ An optional query parameter can be passed to select translations with a given st
 ```shell
 curl -H "Authorization: ApiKey username:api_token" \
      -H "Content-Type: application/json" \
-     -X GET https://www.unbabel.com/tapi/v2/translation/?status=ready
+     -X GET https://www.unbabel.com/tapi/v2/translation/?status=completed
 ```
 
 Response:
@@ -199,13 +199,13 @@ Response:
      "objects": [
           {
                "price": 5,
-               "status": "ready",
+               "status": "completed",
                "text": "This is a test task ",
                "uid": "a281dab6e1"
           },
           {
                "price": 4,
-               "status": "ready",
+               "status": "completed",
                "text":"In the era of Siri",
                "target_language":"pt",
                "source_language": "en",
