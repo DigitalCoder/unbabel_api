@@ -167,10 +167,14 @@ Query all Translations
 
 Returns a list of translations done by this user.
 An optional query parameter can be passed to select translations with a given status:
-     * new - The translation has been created and is being pre-processed.
-     * ready - The translation is ready to be processed in the unbabel platform.
-     * in_progressed - The translation is being executed.
-     * delivered - The translation has already been returned to the client (either using the endpoint or query for a translation).
+  * new - The translation has not been started yet.
+  * translating -  The translation is being proceed.
+  * completed - The translation has been terminated. The client can access the translation.
+  * failed - Something went wrong with your order.
+  * canceled - The translation was canceled.
+  * accepted - The translation was accepted by the client. A job is accepted if the client does fill a complaint in 48 hours.
+  * rejected - The translation was rejected by the client.
+
 
 
 
