@@ -11,7 +11,7 @@ Authentication
 
 Unbabel supports an api key-based authentication mechanism.
 
-Signup for Unbabel to get an api token at https://www.unbabel.comm. The key is the api key associated with an account and can be obtained in the Unbabel website on your profile. This key should be passed as a request header with each request.
+Signup for Unbabel to get an api token at https://www.unbabel.com. The key is the api key associated with an account and can be obtained in the Unbabel website on your profile. This key should be passed as a request header with each request.
 
 All API calls described in this document require authentication.
 
