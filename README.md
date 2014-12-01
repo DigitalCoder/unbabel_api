@@ -69,11 +69,11 @@ Response:
 }
 ```
 
-* uid - The unique translation identifier. This will be used for the user to joaccessd the job.
+* uid - The unique translation identifier. This will be used for the user to access the job.
 * status - The current status of the job, can be one of:
   * new - The translation has not been started yet.
   * translating -  The translation is being proceed.
-  * completed - The translation has been terminated. The client can access the translation.
+  * completed - The translation has been completed successfully. The client can access the translation.
   * failed - Something went wrong with your order.
   * canceled - The translation was canceled.
   * accepted - The translation was accepted by the client. A job is accepted if the client does fill a complaint in 48 hours.
