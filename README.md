@@ -79,7 +79,7 @@ Response:
   * accepted - The translation was accepted by the client. A job is accepted if the client does fill a complaint in 48 hours.
   * rejected - The translation was rejected by the client.
 * source_language - The detected source language
-* price - The total price of the requested translation in euro cents.
+* price - The total price of the requested translation in dollar cents.
 
 
 Bulk Request Translations
