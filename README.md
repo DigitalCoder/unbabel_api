@@ -50,8 +50,8 @@ Example:
 
 ```json
 {
-    "text":"In the era of Siri",
-    "target_language":"pt",
+    "text": "In the era of Siri",
+    "target_language": "pt",
     "callback_url": "http://news.unbabel.co/unbabel_endpoint/"
 }
 ```
@@ -61,11 +61,11 @@ Response:
 ```json
 {
     "status": "new",
-    "text":"In the era of Siri",
-    "target_language":"pt",
+    "text": "In the era of Siri",
+    "target_language": "pt",
     "source_language": "en",
     "uid": "5d10df62d3",
-    "price":5
+    "price": 5
 }
 ```
 
@@ -97,15 +97,11 @@ Where data is a json dictionary of the following form:
 
 ```json
 { "objects": [
-     {
-    "text":"Translation 1",
-    "target_language":"pt",
-     },
-     ....
-     {
-    "text":"Translation n",
-    "target_language":"pt",
-     }
+     {"text":"Translation 1",
+      "target_language":"pt"},
+     ...
+     {"text":"Translation n",
+      "target_language":"pt"}
      ]
 }
 ```
@@ -114,22 +110,19 @@ Response:
 
 ```json
 { "objects": [
-     {
-     "client": "gracaninja",
-     "price": 2.0,
-     "status": "new",
-     "target_language": "pt",
-     "text": "translation 1",
-     "uid": "ee2578c2fd"
-     },
-     ....
-     {
-     "client": "gracaninja",
-     "price": 2.0,
-     "status": "new",
-     "target_language": "pt",
-     "text": "translation n",
-     "uid": "49e49bdc2d"}
+     {"client": "gracaninja",
+      "price": 2.0,
+      "status": "new",
+      "target_language": "pt",
+      "text": "translation 1",
+      "uid": "ee2578c2fd"},
+     ...
+     {"client": "gracaninja",
+      "price": 2.0,
+      "status": "new",
+      "target_language": "pt",
+      "text": "translation n",
+      "uid": "49e49bdc2d"}
      ]
 }
 ```
@@ -155,9 +148,8 @@ Response:
      "text":"In the era of Siri",
      "target_language":"pt",
      "source_language": "en",
-     "translatedText": "teste super legal ordem.",
+     "translatedText": "Na era da Siri",
      "uid": "29de9551d9"
-
 }
 ```
 
@@ -190,11 +182,11 @@ Response:
 
 {
      "meta": {
-               "limit": 20,
-               "next": "/tapi/v2/translation/?limit=20&offset=20",
-               "offset": 0,
-               "previous": null,
-               "total_count": 45
+          "limit": 20,
+          "next": "/tapi/v2/translation/?limit=20&offset=20",
+          "offset": 0,
+          "previous": null,
+          "total_count": 45
           },
      "objects": [
           {
@@ -211,7 +203,7 @@ Response:
                "source_language": "en",
                "uid": "29de9551d9"
           }
-
+          
      ...
      ]
 }
