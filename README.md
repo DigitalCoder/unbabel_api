@@ -94,8 +94,7 @@ POST request:
     "translated_text": "Na era da Siri",
     "target_language": "pt",
     "source_language": "en",
-    "uid": "5d10df62d3",
-    
+    "uid": "5d10df62d3"
 }
 ```
 
