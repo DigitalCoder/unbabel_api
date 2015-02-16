@@ -88,7 +88,7 @@ Request Translation Callback
 POST request:
 ```json
 {
-	"price": 5.0
+	"price": 5.0,
     "status": "completed",
     "text": "In the era of Siri",
     "translated_text": "Na era da Siri",
