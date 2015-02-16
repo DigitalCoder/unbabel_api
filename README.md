@@ -82,6 +82,26 @@ Response:
 * price - The total price of the requested translation in dollar cents.
 
 
+Request Translation Callback
+-------------
+
+POST request:
+```json
+{
+	"price": 5.0
+    "status": "completed",
+    "text": "In the era of Siri",
+    "translated_text": "Na era da Siri",
+    "target_language": "pt",
+    "source_language": "en",
+    "uid": "5d10df62d3",
+    
+}
+```
+
+Note: The endpoint must return a HTTP status code 201 (Created) to get a completed status in the dashboard.
+
+
 Bulk Request Translations
 -------------
 
